@@ -1,1 +1,167 @@
-MOIS 1 : Le "Bootcamp" Algorithmique Objectif : Casser ton cerveau pour qu'il pense comme une machine. On se fiche de l'interface graphique, on veut de la logique pure. Semaine 1 : Syntaxe Vitale Variables, Types de données (int, float, string, bool). Opérations mathématiques et logiques. Entrées / Sorties (input, print). Semaine 2 : Le Contrôle du Flux Conditions (if, elif, else). Boucles (for, while) et itérations. Gestion des exceptions de base (try, except). Semaine 3 : Structures de Données Listes, Tuples, Dictionnaires (très important en Python), Ensembles (Sets). Manipulation de ces structures (ajout, suppression, tri, slicing). Semaine 4 : Modularité Fonctions (paramètres, retour, portée des variables). Modules et importations (math, random, time). 🔥 L'ÉPREUVE DU FEU (Validation Mois 1) : "Le Gestionnaire de Casino" Tu dois coder un programme en console qui permet à un joueur de s'inscrire (pseudo, solde de départ), de choisir entre 3 jeux (Roulette, Nombre Mystère, Machine à sous), de miser, de gagner ou perdre de l'argent virtuel, et de quitter avec son solde final. Critère de réussite : Le code ne doit jamais planter, même si l'utilisateur tape des bêtises. MOIS 2 : Python Système & Automatisation Objectif : Faire de Python ton esclave pour piloter ton ordinateur. C'est là que tu deviens productif. Semaine 5 : Manipulation de Fichiers (I/O) Lire et écrire des fichiers .txt, .csv, .json. Encodage (UTF-8). Semaine 6 : Interaction Système (OS) Modules os, sys, shutil. Parcourir des dossiers, renommer des fichiers en masse, récupérer des infos système. Semaine 7 : Le Réseau (Bases) Requêtes HTTP (module requests). Télécharger du contenu depuis le web (Scraping basique avec BeautifulSoup). Semaine 8 : Environnements Virtuels venv, pip. Gérer les dépendances d'un projet (requirements.txt). 🔥 L'ÉPREUVE DU FEU (Validation Mois 2) : "L'Archiviste Automatique" Un script qui scanne un dossier "Bordel" (téléchargements), identifie les types de fichiers (images, docs, vidéos), les déplace dans des dossiers rangés par catégorie et par date, et génère un rapport .csv de ce qui a été déplacé. MOIS 3 : Programmation Orientée Objet (POO) Objectif : Passer de "scripteur" à "développeur". Indispensable pour travailler en équipe et sur de gros projets. Semaine 9 : Les Classes et Objets Attributs, Méthodes, Constructeur (__init__). Différence entre Classe et Instance. Semaine 10 : Les Piliers de la POO Héritage (Parent/Enfant). Polymorphisme & Encapsulation (privé/public). Semaine 11 : Méthodes Magiques __str__, __repr__, __eq__, etc. Semaine 12 : Conception Logicielle Lire et comprendre un diagramme UML simple. Structurer un projet en plusieurs fichiers. 🔥 L'ÉPREUVE DU FEU (Validation Mois 3) : "Système RPG Textuel" Créer le moteur d'un jeu de rôle. Une classe Personnage, des classes filles Guerrier, Mage. Un système d'inventaire. Un système de combat tour par tour. Critère de réussite : Code propre, réutilisable, utilisant l'héritage intelligemment. MOIS 4 : Bases de Données & SQL Objectif : La mémoire persistante. Un logiciel sans base de données est amnésique. Semaine 13 : SQL Pur (Le Langage) SELECT, INSERT, UPDATE, DELETE. Joins (Inner, Left, Right). Semaine 14 : Python & SQL Module sqlite3 (bases locales). Créer, lire et modifier une DB depuis Python. Semaine 15 : ORM (Object Relational Mapping) SQLAlchemy ou Peewee. Manipuler la base de données comme des objets Python (sans écrire de SQL). Semaine 16 : Modélisation de Données Relations One-to-One, One-to-Many, Many-to-Many. 🔥 L'ÉPREUVE DU FEU (Validation Mois 4) : "Bibliothèque Intelligente" Une application console pour gérer un stock de livres. On doit pouvoir ajouter un livre, un auteur, et "emprunter" un livre (ce qui le rend indisponible). Tout est sauvegardé dans une base SQLite. Si je ferme et rouvre le programme, les données sont là. MOIS 5 : Web Back-End & API Objectif : Rendre ton code accessible au monde entier. Semaine 17 : Le Web (Théorie) Protocole HTTP (GET, POST, PUT, DELETE). Codes de statut (200, 404, 500). Format JSON. Semaine 18 : Framework Flask (Les bases) Routing (URLs). Templates (Jinja2) pour afficher des pages HTML simples. Semaine 19 : Création d'API REST Renvoyer du JSON au lieu du HTML. Tester son API avec Postman ou cURL. Semaine 20 : Authentification Sécuriser l'API (Token simple ou Login). 🔥 L'ÉPREUVE DU FEU (Validation Mois 5) : "API Météo Locale" Créer un serveur local qui, quand on l'interroge sur http://localhost:5000/meteo/Paris, va chercher les infos réelles sur une API publique (ex: OpenWeatherMap), les stocke en base de données (cache) et renvoie le résultat en JSON propre. MOIS 6 : Professionnalisation & Projet Final Objectif : Devenir "Embauchable". Qualité, Tests, Déploiement. Semaine 21 : Qualité du Code PEP8 (Style guide). Linting (Pylint, Flake8). Documentation (Docstrings). Semaine 22 : Les Tests Tests unitaires avec pytest. Ne jamais livrer un code non testé. Semaine 23 : Docker & Déploiement Créer un Dockerfile pour ton application Python. La faire tourner dans un conteneur isolé. Semaines 24-26 : LE PROJET FINAL (Portfolio) 🔥 LE GRAND FINAL : "Dashboard de Monitoring Infrastructure" Une application Web complète (Flask + Base de données + Docker) qui : Affiche en temps réel l'état de ta machine (CPU, RAM). Permet de lancer des scripts de maintenance via des boutons web. Possède une page de login sécurisée. Est entièrement conteneurisée (lancement avec docker-compose up). Couverture de tests > 80%.
+# Plan 6 mois — Python/DevOps
+
+## MOIS 1 : Le "Bootcamp" Algorithmique
+**Objectif :** casser ton cerveau pour qu’il pense comme une machine. Logique pure, console uniquement.
+
+### Semaine 1 : Syntaxe vitale
+- Variables, types (int, float, string, bool)
+- Opérations mathématiques et logiques
+- Entrées / sorties (input, print)
+
+### Semaine 2 : Contrôle du flux
+- Conditions (if, elif, else)
+- Boucles (for, while) et itérations
+- Exceptions de base (try, except)
+
+### Semaine 3 : Structures de données
+- Listes, tuples, dictionnaires, ensembles (sets)
+- Manipulation : ajout, suppression, tri, slicing
+
+### Semaine 4 : Modularité
+- Fonctions (paramètres, retour, portée des variables)
+- Modules et importations (math, random, time)
+
+#### 🔥 Épreuve du feu (Validation Mois 1) — “Gestionnaire de Casino”
+Programme console permettant :
+- inscription (pseudo, solde de départ)
+- choix entre 3 jeux (roulette, nombre mystère, machine à sous)
+- mise, gain/perte, quitter avec solde final
+
+**Critère :** le code ne doit jamais planter, même si l’utilisateur tape n’importe quoi.
+
+---
+
+## MOIS 2 : Python Système & Automatisation
+**Objectif :** faire de Python ton esclave pour piloter ton ordinateur.
+
+### Semaine 5 : Manipulation de fichiers (I/O)
+- Lire/écrire : .txt, .csv, .json
+- Encodage (UTF-8)
+
+### Semaine 6 : Interaction système (OS)
+- os, sys, shutil
+- Parcours dossiers, renommage en masse, infos système
+
+### Semaine 7 : Réseau (bases)
+- HTTP avec requests
+- Télécharger du contenu, scraping basique (BeautifulSoup)
+
+### Semaine 8 : Environnements virtuels
+- venv, pip
+- requirements.txt
+
+#### 🔥 Épreuve du feu (Validation Mois 2) — “Archiviste Automatique”
+Script qui :
+- scanne un dossier “Bordel” (téléchargements)
+- identifie types de fichiers (images/docs/vidéos)
+- déplace en dossiers par catégorie + date
+- génère un rapport .csv
+
+---
+
+## MOIS 3 : Programmation Orientée Objet (POO)
+**Objectif :** passer de “scripteur” à “développeur”.
+
+### Semaine 9 : Classes et objets
+- Attributs, méthodes, constructeur (__init__)
+- Différence classe vs instance
+
+### Semaine 10 : Piliers de la POO
+- Héritage (parent/enfant)
+- Polymorphisme & encapsulation (privé/public)
+
+### Semaine 11 : Méthodes magiques
+- __str__, __repr__, __eq__, etc.
+
+### Semaine 12 : Conception logicielle
+- Lire un UML simple
+- Structurer un projet multi-fichiers
+
+#### 🔥 Épreuve du feu (Validation Mois 3) — “Système RPG Textuel”
+- classe Personnage
+- classes filles Guerrier, Mage
+- inventaire
+- combat tour par tour
+
+**Critère :** code propre, réutilisable, héritage intelligent.
+
+---
+
+## MOIS 4 : Bases de Données & SQL
+**Objectif :** mémoire persistante.
+
+### Semaine 13 : SQL pur
+- SELECT, INSERT, UPDATE, DELETE
+- JOINs (Inner, Left, Right)
+
+### Semaine 14 : Python & SQL
+- sqlite3
+- CRUD depuis Python
+
+### Semaine 15 : ORM
+- SQLAlchemy ou Peewee
+- manipuler la DB comme des objets Python
+
+### Semaine 16 : Modélisation
+- One-to-One, One-to-Many, Many-to-Many
+
+#### 🔥 Épreuve du feu (Validation Mois 4) — “Bibliothèque Intelligente”
+Appli console (SQLite) :
+- ajouter livre, auteur
+- emprunter un livre (indisponible)
+- persistance après fermeture/réouverture
+
+---
+
+## MOIS 5 : Web Back-End & API
+**Objectif :** rendre ton code accessible au monde entier.
+
+### Semaine 17 : Web (théorie)
+- HTTP (GET, POST, PUT, DELETE)
+- codes de statut (200, 404, 500)
+- JSON
+
+### Semaine 18 : Flask (bases)
+- routing
+- templates (Jinja2)
+
+### Semaine 19 : API REST
+- renvoyer JSON (pas HTML)
+- tests avec Postman ou cURL
+
+### Semaine 20 : Authentification
+- sécuriser l’API (token simple ou login)
+
+#### 🔥 Épreuve du feu (Validation Mois 5) — “API Météo Locale”
+Serveur local :
+- endpoint `http://localhost:5000/meteo/Paris`
+- récupère météo via une API publique (ex: OpenWeatherMap)
+- stocke en DB (cache)
+- renvoie JSON propre
+
+---
+
+## MOIS 6 : Professionnalisation & Projet Final
+**Objectif :** qualité, tests, déploiement.
+
+### Semaine 21 : Qualité du code
+- PEP8
+- lint (pylint/flake8)
+- docstrings
+
+### Semaine 22 : Tests
+- pytest
+- jamais livrer sans tests
+
+### Semaine 23 : Docker & déploiement
+- Dockerfile
+- exécution en conteneur
+
+### Semaines 24–26 : Projet final (portfolio)
+#### 🔥 Grand final — “Dashboard de Monitoring Infrastructure”
+App web complète (Flask + DB + Docker) qui :
+- affiche en temps réel l’état machine (CPU, RAM)
+- lance des scripts de maintenance via boutons web
+- page login sécurisée
+- docker-compose up
+- couverture de tests > 80%
